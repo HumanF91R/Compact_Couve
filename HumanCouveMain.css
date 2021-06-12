@@ -1,0 +1,52 @@
+@import url("https://nyri4.github.io/Couve/betterdiscord/app.css")
+
+/*bubble member list*/
+:root { --animation-speed: 0.35s; --seperator-color: var(--background-accent); }
+.members-1998pB { transition: transform var(--animation-speed); }
+.membersWrap-2h-GB4 { min-width: unset; width: 40px; justify-content: left; }
+.content-3QAtGj .subText-1KtqkB { display: block; }
+.membersWrap-2h-GB4:hover .members-1998pB { transform: translateX(-260px); }
+.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe { background-color: unset; margin-left: 0px; transition: margin-left var(--hover-animation-speed); }
+.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe { margin-left: 15px; }
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm { transform: translateX(2px); }
+.membersWrap-2h-GB4 .membersGroup-v9BXpm { cursor: default; transform: translateX(-10px); transition: transform var(--hover-animation-speed); overflow: visible; }
+.members-1998pB { border-radius: 18px 18px 18px 18px !important; left: 37px; margin-top: 120px; margin-bottom: 15px; }
+::-webkit-scrollbar { display: block; }
+.membersWrap-2h-GB4 { left: 45px; margin-right: 15px; bottom: 75px; background-color: rgba(216, 27, 27, 0); }
+.chatContent-a9vAAp { background-color: var(--background-primary); border-radius: 0 15px 0 0 !important; margin-left: -0px; margin-right: -40px; }
+.channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { margin-left: 20px; }
+.base-gE7OpD { right: -5px; top: 45px; }
+.buttons-3JBrkn { position: relative; left: -10px }
+
+/*Minimized Now Playing Column*/
+.nowPlayingColumn-2sl4cE {
+  transform: translateX(82%);
+  transition: var(--animation-speed);
+}
+.nowPlayingColumn-2sl4cE:hover {
+  transform: none;
+}
+.peopleList-3c4jOR {
+    position: absolute;
+    padding-bottom: 8px;
+    width: 96%;
+    height: 100%;
+    background-color: rgba(35,40,61,1);
+}
+
+:root .container-1D34oG .nowPlayingColumn-2sl4cE .container-lRFx4q .scroller-2ZPeAD{
+  background-color: var(--background-secondary);
+}
+
+/* Hover over server list to show channels */
+.sidebar-2K8pFh {
+    width: 0px;
+    transition: 0.2s ease;
+    transition-duration: var(--animations-speed);
+}
+.wrapper-3NnKdC:hover+.base-3dtUhz>.content-98HsJk>.sidebar-2K8pFh{
+    width:240px;
+}
+.sidebar-2K8pFh:hover {
+    width:240px;
+}
