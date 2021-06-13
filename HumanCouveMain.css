@@ -1,15 +1,28 @@
-@import url("https://nyri4.github.io/Couve/betterdiscord/app.css")
+/**
+ * @name .mycouvemain
+ * @author A user#8169, Nyria#3863, HumanF91R-8#0548
+ * @description A new look to discord
+ * @invite rtBQX5D3bD
+ * @version 42.0
+*/
+
+@import url("https://nyri4.github.io/Couve/betterdiscord/app.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
+@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css"); 
+@import url("https://flashc0rd.github.io/BetterBG/bg/backgrounds.css");
+@import url("https://hoyupu.github.io/ColouredChannels/main.css");
 
 /*bubble member list*/
 :root { --animation-speed: 0.35s; --seperator-color: var(--background-accent); }
 .members-1998pB { transition: transform var(--animation-speed); }
 .membersWrap-2h-GB4 { min-width: unset; width: 40px; justify-content: left; }
 .content-3QAtGj .subText-1KtqkB { display: block; }
-.membersWrap-2h-GB4:hover .members-1998pB { transform: translateX(-260px); }
-.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe { background-color: unset; margin-left: 0px; transition: margin-left var(--hover-animation-speed); }
+.membersWrap-2h-GB4:hover .members-1998pB { transform: translateX(-270px); }
+.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe { background-color: unset; margin-left: 0px; transition: margin-left var(--animation-speed); }
 .membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe { margin-left: 15px; }
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm { transform: translateX(2px); }
-.membersWrap-2h-GB4 .membersGroup-v9BXpm { cursor: default; transform: translateX(-10px); transition: transform var(--hover-animation-speed); overflow: visible; }
+.membersWrap-2h-GB4 .membersGroup-v9BXpm { cursor: default; transform: translateX(-10px); transition: transform var(--animation-speed); overflow: visible; }
 .members-1998pB { border-radius: 18px 18px 18px 18px !important; left: 37px; margin-top: 120px; margin-bottom: 15px; }
 ::-webkit-scrollbar { display: block; }
 .membersWrap-2h-GB4 { left: 45px; margin-right: 15px; bottom: 75px; background-color: rgba(216, 27, 27, 0); }
@@ -41,12 +54,155 @@
 /* Hover over server list to show channels */
 .sidebar-2K8pFh {
     width: 0px;
-    transition: 0.2s ease;
-    transition-duration: var(--animations-speed);
+    transition: var(--animation-speed) ease;
+    transition-duration: var(--animation-speed);
 }
 .wrapper-3NnKdC:hover+.base-3dtUhz>.content-98HsJk>.sidebar-2K8pFh{
     width:240px;
 }
 .sidebar-2K8pFh:hover {
     width:240px;
+}
+
+/*Custom Right Click Menu Animation*/
+.toolbar-1t6TWx a {
+  display: none;
+}
+
+#private-channels a[href="/store"] {
+    display: none;
+}
+
+.menu-3sdvDG {
+    animation: custom-menu-animation var(--animation-speed) ease;
+    transform-origin: top;
+}
+
+@keyframes custom-menu-animation {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+/*Chat Buttons Hide*/
+.buttons-3JBrkn {
+    opacity: 0%; 
+    transition-duration: .6s; 
+    transform: scaleX(0);
+    width: 0px;}
+.inner-MADQqc:hover > .buttons-3JBrkn {
+    opacity: 100%; 
+    transform: scaleX(1);
+    width: 120px;
+}
+
+/* Colorful Chatbar */
+.sprite-2iCowe {
+filter: grayscale(0%) !important;}
+.stickerButton-3OEgwj {
+background: url("https://cdn.discordapp.com/attachments/751155896024826018/851923776672104518/stickers.png");
+background-size: 20px;
+background-position-x: 5px;
+background-position-y: 5px;
+background-repeat: no-repeat;}
+.icon-3D60ES {
+background: url("https://cdn.discordapp.com/attachments/751155896024826018/851920865511079996/unknown.png");
+background-size: 20px;
+background-position-x: 2px;
+background-position-y: 4px;
+background-repeat: no-repeat;}
+[aria-label="Send a gift"] {
+background: url("https://cdn.discordapp.com/attachments/751155896024826018/851926915350134834/unknown.png");
+background-size: 25px;
+background-position-x: 13px;
+background-position-y: 15px;
+background-repeat: no-repeat;}
+.contents-18-Yxp, .button-3AYNKb, .button-318s1X path {fill: transparent;}
+
+/*Couve Home Button*/
+.childWrapper-anI2G9 { background: url('https://nyri4.github.io/Couve/assets/icon.png') center/cover no-repeat !important;}
+.homeIcon-FuNwkv { display: none;}
+
+/*Friends List*/
+:root{
+--friendblockheight: 80px;
+--csbg: url('https://imgur.com/8twCdCN.jpg');}
+/* Online count */
+.peopleList-3c4jOR .title-30qZAO { 
+font-size: 18px;
+text-align: center;
+line-height: 40px;
+height: var(--friendblockheight);
+border-radius: 8px;
+background-color: var(--background-tertiary);}
+[id="ONLINE-tab"] .peopleList-3c4jOR .title-30qZAO {
+padding-left: 30px;
+color: #43B581;
+height: var(--friendblockheight)}
+[id="ONLINE-tab"] .peopleList-3c4jOR .title-30qZAO:before { 
+content: "";
+position: absolute;
+margin-left: -32px;
+margin-top: 13px;
+width: 14px;
+height: 14px;
+background-color: #43B581;
+border-radius: 50%;}
+/* USRBG */
+.avatar-3W3CeO.wrapper-3t9DeA:before {
+content: '';
+position: absolute;
+top: -20px; 
+left: -25px;
+min-width: 585px;
+height: var(--friendblockheight) !important;
+z-index: -1;
+opacity: 0.3;
+background: var(--user-background, var(--csbg));
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
+.userInfo-2zN2z8 {
+background-color: var(--background-tertiary);
+border-radius: 8px;
+padding: 8px;
+margin-left: 6px;}
+/* Buttons */
+.actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE {border-radius: 8px;}
+/* Fuck Borders */
+.peopleListItem-2nzedh {
+border-top: 0px solid var(--background-modifier-accent);}
+/* tajmahal? / Bruh / Why is this here? */
+.userInfo-2zN2z8, .actions-1SQwjn {position: relative; z-index: 1;}
+
+/*Gradient starts at colour two due to how Discord handles channel lists.*/
+.theme-dark {
+  --colour-1: #FEC4DF;
+  --colour-2: #EFC8F3;
+  --colour-3: #D2D0FC;
+  --colour-4: #B0DAF6;
+  --colour-5: #9AE1E3;
+  --colour-6: #9FE2C9;
+  --colour-7: #B8DFB2;
+  --colour-8: #D6D8A7;
+  --colour-9: #EFCFAF;
+  --colour-10: #FDC7C5;
+}
+
+/*Slide in Messages*/
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.message-2qnXI6 {
+  animation: slide-up 0.4s ease;
 }
