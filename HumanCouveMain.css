@@ -34,7 +34,8 @@
 /*Minimized Now Playing Column*/
 .nowPlayingColumn-2sl4cE {
   transform: translateX(82%);
-  transition: var(--animation-speed);
+  transition: var(--animation-speed)
+  z-index: 2;
 }
 .nowPlayingColumn-2sl4cE:hover {
   transform: none;
