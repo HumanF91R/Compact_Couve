@@ -128,7 +128,7 @@ background-repeat: no-repeat;}
 
 /*Friends List*/
 :root{
---friendblockheight: 80px;
+--friendblockheight: 70px;
 --csbg: url('https://cdn.discordapp.com/attachments/840053127956922408/854386324307181588/Couve_Gradient.png');}
 /* Online count */
 .peopleList-3c4jOR .title-30qZAO { 
@@ -160,7 +160,7 @@ left: -25px;
 min-width: 585px;
 height: var(--friendblockheight) !important;
 z-index: -1;
-opacity: 0.3;
+opacity: 0.5;
 background: var(--user-background, var(--csbg));
 background-size: cover;
 background-repeat: no-repeat;
