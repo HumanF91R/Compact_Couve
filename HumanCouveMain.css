@@ -129,7 +129,7 @@ background-repeat: no-repeat;}
 /*Friends List*/
 :root{
 --friendblockheight: 80px;
---csbg: url('https://imgur.com/8twCdCN.jpg');}
+--csbg: url('https://cdn.discordapp.com/attachments/840053127956922408/854386324307181588/Couve_Gradient.png');}
 /* Online count */
 .peopleList-3c4jOR .title-30qZAO { 
 font-size: 18px;
@@ -180,17 +180,17 @@ border-top: 0px solid var(--background-modifier-accent);}
 
 /*Gradient starts at colour two due to how Discord handles channel lists.*/
 .theme-dark {
-  --colour-1: #FEC4DF;
-  --colour-2: #EFC8F3;
-  --colour-3: #D2D0FC;
-  --colour-4: #B0DAF6;
-  --colour-5: #9AE1E3;
-  --colour-6: #9FE2C9;
-  --colour-7: #B8DFB2;
-  --colour-8: #D6D8A7;
-  --colour-9: #EFCFAF;
-  --colour-10: #FDC7C5;
-}
+  --colour-1: #419E85;
+  --colour-2: #3EC3A4;
+  --colour-3: #0BB494;
+  --colour-4: #BBF49B;
+  --colour-5: #9CE69D;
+  --colour-6: #6FD7A3;
+  --colour-7: #9CE69D;
+  --colour-8: #BBF49B;
+  --colour-9: #0BB494;
+  --colour-10: #3EC3A4;
+  }
 
 /*Slide in Messages*/
 @keyframes slide-up {
