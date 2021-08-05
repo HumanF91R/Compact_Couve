@@ -87,18 +87,6 @@
     }
 }
 
-/*Chat Buttons Hide*/
-.buttons-3JBrkn {
-    opacity: 0%; 
-    transition-duration: .6s; 
-    transform: scaleX(0);
-    width: 0px;}
-.inner-MADQqc:hover > .buttons-3JBrkn {
-    opacity: 100%; 
-    transform: scaleX(1);
-    width: 120px;
-}
-
 /* Colorful Chatbar */
 .sprite-2iCowe {
 filter: grayscale(0%) !important;}
