@@ -9,8 +9,6 @@
 @import url("https://nyri4.github.io/Couve/betterdiscord/app.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css"); 
-@import url("https://flashc0rd.github.io/BetterBG/bg/backgrounds.css");
 @import url("https://hoyupu.github.io/ColouredChannels/main.css");
 
 /*bubble member list*/
@@ -114,57 +112,6 @@ background-repeat: no-repeat;}
 .childWrapper-anI2G9 { background: url('https://nyri4.github.io/Couve/assets/icon.png') center/cover no-repeat !important;}
 .homeIcon-FuNwkv { display: none;}
 
-/*Friends List*/
-:root{
---friendblockheight: 70px;
---csbg: url('https://cdn.discordapp.com/attachments/840053127956922408/854386324307181588/Couve_Gradient.png');}
-/* Online count */
-.peopleList-3c4jOR .title-30qZAO { 
-font-size: 18px;
-text-align: center;
-line-height: 40px;
-height: var(--friendblockheight);
-border-radius: 8px;
-background-color: var(--background-tertiary);}
-[id="ONLINE-tab"] .peopleList-3c4jOR .title-30qZAO {
-padding-left: 30px;
-color: #43B581;
-height: var(--friendblockheight)}
-[id="ONLINE-tab"] .peopleList-3c4jOR .title-30qZAO:before { 
-content: "";
-position: absolute;
-margin-left: -32px;
-margin-top: 13px;
-width: 14px;
-height: 14px;
-background-color: #43B581;
-border-radius: 50%;}
-/* USRBG */
-.avatar-3W3CeO.wrapper-3t9DeA:before {
-content: '';
-position: absolute;
-top: -20px; 
-left: -25px;
-min-width: 585px;
-height: var(--friendblockheight) !important;
-z-index: -1;
-opacity: 0.5;
-background: var(--user-background, var(--csbg));
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;}
-.userInfo-2zN2z8 {
-background-color: var(--background-tertiary);
-border-radius: 8px;
-padding: 8px;
-margin-left: 6px;}
-/* Buttons */
-.actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE {border-radius: 8px;}
-/* Fuck Borders */
-.peopleListItem-2nzedh {
-border-top: 0px solid var(--background-modifier-accent);}
-/* tajmahal? / Bruh / Why is this here? */
-.userInfo-2zN2z8, .actions-1SQwjn {position: relative; z-index: 1;}
 
 /*Gradient starts at colour two due to how Discord handles channel lists.*/
 .theme-dark {
