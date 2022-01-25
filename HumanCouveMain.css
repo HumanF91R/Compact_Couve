@@ -15,52 +15,52 @@
 
 /*bubble member list*/
 :root { --animation-speed: 0.35s; --seperator-color: var(--background-accent); }
-.members-1998pB { transition: transform var(--animation-speed); }
-.membersWrap-2h-GB4 { min-width: unset; width: 40px; justify-content: left; }
-.content-3QAtGj .subText-1KtqkB { display: block; }
-.membersWrap-2h-GB4:hover .members-1998pB { transform: translateX(-270px); }
-.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe { background-color: unset; margin-left: 0px; transition: margin-left var(--animation-speed); }
-.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe { margin-left: 15px; }
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm { transform: translateX(2px); }
-.membersWrap-2h-GB4 .membersGroup-v9BXpm { cursor: default; transform: translateX(-10px); transition: transform var(--animation-speed); overflow: visible; }
-.members-1998pB { border-radius: 18px 18px 18px 18px !important; left: 37px; margin-top: 120px; margin-bottom: 15px; }
+.members-3WRCEx { transition: transform var(--animation-speed); }
+.membersWrap-3NUR2t { min-width: unset; width: 40px; justify-content: left; }
+.content-1U25dZ .subText-OGOWMj { display: block; }
+.membersWrap-3NUR2t:hover .members-3WRCEx { transform: translateX(-270px); }
+.membersWrap-3NUR2t .members-3WRCEx .member-2gU6Ar { background-color: unset; margin-left: 0px; transition: margin-left var(--animation-speed); }
+.membersWrap-3NUR2t:hover .members-3WRCEx .member-2gU6Ar { margin-left: 15px; }
+.membersWrap-3NUR2t:hover .membersGroup-2eiWxl { transform: translateX(2px); }
+.membersWrap-3NUR2t .membersGroup-2eiWxl { cursor: default; transform: translateX(-10px); transition: transform var(--animation-speed); overflow: visible; }
+.members-3WRCEx { border-radius: 18px 18px 18px 18px !important; left: 37px; margin-top: 120px; margin-bottom: 15px; }
 ::-webkit-scrollbar { display: block; }
-.membersWrap-2h-GB4 { left: 45px; margin-right: 15px; bottom: 75px; background-color: rgba(216, 27, 27, 0); }
-.chatContent-a9vAAp { background-color: var(--background-primary); border-radius: 0 15px 0 0 !important; margin-left: -0px; margin-right: -40px; }
-.channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { margin-left: 20px; }
-.base-gE7OpD { right: -5px; top: 45px; }
-.buttons-3JBrkn { position: relative; left: -10px }
+.membersWrap-3NUR2t { left: 45px; margin-right: 15px; bottom: 75px; background-color: rgba(216, 27, 27, 0); }
+.chatContent-3KubbW { background-color: var(--background-primary); border-radius: 0 15px 0 0 !important; margin-left: -0px; margin-right: -40px; }
+.channelTextArea-1FufC0, .channelTextArea-1VQBuV { margin-left: 20px; }
+.base-3bcbY3 { right: -5px; top: 45px; }
+.buttons-uaqb-5 { position: relative; left: -10px }
 
 /*Minimized Now Playing Column*/
-.nowPlayingColumn-2sl4cE {
+.nowPlayingColumn-1eCBCN {
   transform: translateX(82%);
   transition: var(--animation-speed);
   z-index: 2;
 }
-.nowPlayingColumn-2sl4cE:hover {
+.nowPlayingColumn-1eCBCN:hover {
   transform: none;
 }
-.peopleList-3c4jOR {
+.peopleList-2VBrVI {
     position: absolute;
     padding-bottom: 8px;
     width: 96%;
     height: 100%;
 }
 
-:root .container-1D34oG .nowPlayingColumn-2sl4cE .container-lRFx4q .scroller-2ZPeAD{
+:root .container-2cd8Mz .nowPlayingColumn-1eCBCN .container-1oAagU .scroller-hE2gWq{
   background-color: var(--background-secondary);
 }
 
 /* Hover over server list to show channels */
-.sidebar-2K8pFh {
+.sidebar-1tnWFu {
     width: 0px;
     transition: var(--animation-speed) ease;
     transition-duration: var(--animation-speed);
 }
-.wrapper-3NnKdC:hover+.base-3dtUhz>.content-98HsJk>.sidebar-2K8pFh{
+.wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu{
     width:240px;
 }
-.sidebar-2K8pFh:hover {
+.sidebar-1tnWFu:hover {
     width:240px;
 }
 
@@ -69,18 +69,18 @@
 --friendblockheight: 70px;
 --csbg: url('https://cdn.discordapp.com/attachments/840053127956922408/854386324307181588/Couve_Gradient.png');}
 /* Online count */
-.peopleList-3c4jOR .title-30qZAO { 
+.peopleList-2VBrVI .title-x4dI75 { 
 font-size: 18px;
 text-align: center;
 line-height: 40px;
 height: var(--friendblockheight);
 border-radius: 8px;
 background-color: var(--background-tertiary);}
-[id="ONLINE-tab"] .peopleList-3c4jOR .title-30qZAO {
+[id="ONLINE-tab"] .peopleList-2VBrVI .title-x4dI75 {
 padding-left: 30px;
 color: #43B581;
 height: var(--friendblockheight)}
-[id="ONLINE-tab"] .peopleList-3c4jOR .title-30qZAO:before { 
+[id="ONLINE-tab"] .peopleList-2VBrVI .title-x4dI75:before { 
 content: "";
 position: absolute;
 margin-left: -32px;
@@ -90,7 +90,7 @@ height: 14px;
 background-color: #43B581;
 border-radius: 50%;}
 /* USRBG */
-.avatar-3W3CeO.wrapper-3t9DeA:before {
+.avatar-2MSPKk.wrapper-1VLyxH:before {
 content: '';
 position: absolute;
 top: -20px; 
@@ -103,21 +103,21 @@ background: var(--user-background, var(--csbg));
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;}
-.userInfo-2zN2z8 {
+.userInfo-2WpsYG {
 background-color: var(--background-tertiary);
 border-radius: 8px;
 padding: 8px;
 margin-left: 6px;}
 /* Buttons */
-.actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE {border-radius: 8px;}
+.actionButton-3-B2x-, .actionButton-3-B2x-.highlight-3DSi7b {border-radius: 8px;}
 /* Fuck Borders */
-.peopleListItem-2nzedh {
+.peopleListItem-u6dGxF {
 border-top: 0px solid var(--background-modifier-accent);}
 /* tajmahal? / Bruh / Why is this here? */
-.userInfo-2zN2z8, .actions-1SQwjn {position: relative; z-index: 1;}
+.userInfo-2WpsYG, .actions-YHvpIT {position: relative; z-index: 1;}
 
 /*Custom Right Click Menu Animation*/
-.toolbar-1t6TWx a {
+.toolbar-3_r2xA a {
   display: none;
 }
 
@@ -125,7 +125,7 @@ border-top: 0px solid var(--background-modifier-accent);}
     display: none;
 }
 
-.menu-3sdvDG {
+.menu-1QACrS {
     animation: custom-menu-animation var(--animation-speed) ease;
     transform-origin: top;
 }
@@ -140,15 +140,15 @@ border-top: 0px solid var(--background-modifier-accent);}
 }
 
 /* Colorful Chatbar */
-.sprite-2iCowe {
+.sprite-2lxwfc {
 filter: grayscale(0%) !important;}
-.stickerButton-3OEgwj {
+.stickerButton-1-nFh2 {
 background: url("https://cdn.discordapp.com/attachments/751155896024826018/851923776672104518/stickers.png");
 background-size: 20px;
 background-position-x: 5px;
 background-position-y: 5px;
 background-repeat: no-repeat;}
-.icon-3D60ES {
+.icon-1d5zch {
 background: url("https://cdn.discordapp.com/attachments/751155896024826018/851920865511079996/unknown.png");
 background-size: 20px;
 background-position-x: 2px;
@@ -160,10 +160,10 @@ background-size: 25px;
 background-position-x: 13px;
 background-position-y: 15px;
 background-repeat: no-repeat;}
-.contents-18-Yxp, .button-3AYNKb, .button-318s1X path {fill: transparent;}
+.contents-3ca1mk, .button-2fCJ0o, .button-3BaQ4X path {fill: transparent;}
 
 /*Couve Home Button*/
-.childWrapper-anI2G9 { background: url('https://nyri4.github.io/Couve/assets/icon.png') center/cover no-repeat !important;}
+.childWrapper-1j_1ub { background: url('https://nyri4.github.io/Couve/assets/icon.png') center/cover no-repeat !important;}
 .homeIcon-FuNwkv { display: none;}
 
 
@@ -192,22 +192,22 @@ background-repeat: no-repeat;}
         transform: translateX(0);
     }
 }
-.message-2qnXI6 {
+.message-2CShn3 {
   animation: slide-up 0.4s ease;
 }
 /*Reaction Boxes*/
-.reaction-1hd86g{
+.reaction-2A2y9y{
   background: -webkit-linear-gradient(120deg, rgba(138, 157, 224, 0.125), rgba(255, 255, 255, 0.152));
   -webkit-background-clip: border-box;
   border-color: #67686a;
   border-width: 2px;
   border-radius: 2px;
 }
-.reaction-1hd86g:hover{
+.reaction-2A2y9y:hover{
   background: -webkit-linear-gradient(80deg, rgb(146, 191, 221), rgb(255, 255, 255));
   -webkit-background-clip: text;
 }
-.reaction-1hd86g:hover{
+.reaction-2A2y9y:hover{
   background: -webkit-linear-gradient(120deg, rgba(138, 157, 224, 0.125), rgba(255, 255, 255, 0.152));
   -webkit-background-clip: border-box;
 }
