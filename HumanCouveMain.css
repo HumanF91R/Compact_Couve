@@ -61,6 +61,8 @@
 --friendblockheight: 70px;
 --csbg: url('https://cdn.discordapp.com/attachments/840053127956922408/854386324307181588/Couve_Gradient.png');}
 /* Online count */
+.peopleList-2VBrVI {
+padding-top: 100px;}
 .peopleList-2VBrVI .title-x4dI75 { 
 font-size: 18px;
 text-align: center;
@@ -190,4 +192,35 @@ background-repeat: no-repeat;}
 .message-2CShn3 {
   animation: slide-up 0.4s ease;
 }
+
+/* Channel hover and click animation */
+    .containerDefault-YUSmu3 {
+    transition: all 0.5s;
+    }
+    .containerDefault-YUSmu3:hover {
+    transition: all 0.2s;
+    transform: translatex(-3px);
+    }
+    .containerDefault-YUSmu3:active {
+    transition: all 0.2s;
+    transform: translatex(1px);
+    }
+
+    /* Member hover animation */
+    .member-2gU6Ar {
+    transition: all 0.5s;
+    }
+    .member-2gU6Ar:hover {
+    transition: all 0.2s;
+    transform: translatex(-3px);
+    }
+
+/* Server hover animation */
+   
+    .wrapper-28eC3z {
+        transition: transform 0.2s;
+    }
+    .wrapper-28eC3z:hover {
+        transform: scale(1.1);
+    }
 
