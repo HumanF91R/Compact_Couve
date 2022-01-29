@@ -5,23 +5,45 @@
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css'); 
 @import url('https://flashc0rd.github.io/BetterBG/bg/backgrounds.css');
 
-/*bubble member list*/
-:root { --animation-speed: 0.35s; --seperator-color: var(--background-accent); }
-.members-3WRCEx { transition: transform var(--animation-speed); }
-.membersWrap-3NUR2t { min-width: unset; width: 40px; justify-content: left; }
-.content-1U25dZ .subText-OGOWMj { display: block; }
-.membersWrap-3NUR2t:hover .members-3WRCEx { transform: translateX(-270px); }
-.membersWrap-3NUR2t .members-3WRCEx .member-2gU6Ar { background-color: unset; margin-left: 0px; transition: margin-left var(--animation-speed); }
-.membersWrap-3NUR2t:hover .members-3WRCEx .member-2gU6Ar { margin-left: 15px; }
-.membersWrap-3NUR2t:hover .membersGroup-2eiWxl { transform: translateX(2px); }
-.membersWrap-3NUR2t .membersGroup-2eiWxl { cursor: default; transform: translateX(-10px); transition: transform var(--animation-speed); overflow: visible; }
-.members-3WRCEx { border-radius: 18px 18px 18px 18px !important; left: 37px; margin-top: 120px; margin-bottom: 15px; }
-::-webkit-scrollbar { display: block; }
-.membersWrap-3NUR2t { left: 45px; margin-right: 15px; bottom: 75px; background-color: rgba(216, 27, 27, 0); }
-.chatContent-3KubbW { background-color: var(--background-primary); border-radius: 0 15px 0 0 !important; margin-left: -0px; margin-right: -40px; }
-.channelTextArea-1FufC0, .channelTextArea-1VQBuV { margin-left: 20px; }
-.base-3bcbY3 { right: -5px; top: 45px; }
-.buttons-uaqb-5 { position: relative; left: -10px }
+/*Minified Members & Search*/
+/*By Fitil, Search fix by Cryptogenic*/
+.members-3WRCEx, .membersWrap-3NUR2t, .searchResultsWrap-5RVOkx {
+  border-radius: 0 0 0 0 !important;
+  width: 64px;
+  min-width: 64px;
+  transition-property: width, min-width;
+  transition-duration: 0.8s;
+}
+.members-3WRCEx:hover, .membersWrap-3NUR2t:hover {
+  width: 240px;
+  min-width: 240px;
+}
+.searchResultsWrap-5RVOkx:hover {
+  width: 418px;
+  min-width: 418px;
+}
+.searchResultGroup-1lU_-i {
+  width: 394px;
+}
+.membersWrap-3NUR2t, .searchResultsWrap-5RVOkx {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  box-shadow: none;
+}
+.chatContent-3KubbW {
+  min-width: calc(100% - 64px);
+  max-width: calc(100% - 64px);
+}
+.chatContent-3KubbW[aria-label=" (channel)"] {
+  min-width: 100%;
+  max-width: 100%;
+}
+/* Remove the below to still have role names*/
+.membersWrap-3NUR2t:not(:hover) .membersGroup-2eiWxl{
+  height: 0px;
+  padding: 0px;
+}
 
 /*Minimized Now Playing Column*/
 .nowPlayingColumn-1eCBCN {
