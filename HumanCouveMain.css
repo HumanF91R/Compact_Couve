@@ -155,9 +155,12 @@ background-repeat: no-repeat;}
 .contents-3ca1mk, .button-2fCJ0o, .button-3BaQ4X path {fill: transparent;}
 
 /*Couve Home Button*/
-.childWrapper-1j_1ub { background: url('https://nyri4.github.io/Couve/assets/icon.png') center/cover no-repeat !important;}
-.homeIcon-FuNwkv { display: none;}
-
+.homeIcon-r0w4ny path {fill: transparent}
+.homeIcon-r0w4ny {
+    background: url('https://nyri4.github.io/Couve/assets/icon.png') center/cover no-repeat;
+    min-width: 60px;
+    min-height: 60px;
+}
 
 /*Gradient starts at colour two due to how Discord handles channel lists.*/
 .theme-dark {
@@ -187,19 +190,4 @@ background-repeat: no-repeat;}
 .message-2CShn3 {
   animation: slide-up 0.4s ease;
 }
-/*Reaction Boxes*/
-.reaction-2A2y9y{
-  background: -webkit-linear-gradient(120deg, rgba(138, 157, 224, 0.125), rgba(255, 255, 255, 0.152));
-  -webkit-background-clip: border-box;
-  border-color: #67686a;
-  border-width: 2px;
-  border-radius: 2px;
-}
-.reaction-2A2y9y:hover{
-  background: -webkit-linear-gradient(80deg, rgb(146, 191, 221), rgb(255, 255, 255));
-  -webkit-background-clip: text;
-}
-.reaction-2A2y9y:hover{
-  background: -webkit-linear-gradient(120deg, rgba(138, 157, 224, 0.125), rgba(255, 255, 255, 0.152));
-  -webkit-background-clip: border-box;
-}
+
