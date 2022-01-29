@@ -23,6 +23,11 @@
 .channelTextArea-1FufC0, .channelTextArea-1VQBuV { margin-left: 20px; }
 .base-3bcbY3 { right: -5px; top: 45px; }
 .buttons-uaqb-5 { position: relative; left: -10px }
+/*patch for typing box*/
+:root .scrollableContainer-15eg7h, :root .wrapper-2SplAX{
+max-width: 1360px;}
+.channelTextArea-1VQBuV{
+width: 99%;}
 
 /*Minimized Now Playing Column*/
 .nowPlayingColumn-1eCBCN {
