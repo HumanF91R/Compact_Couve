@@ -71,7 +71,7 @@
     transition: var(--animation-speed) ease;
     transition-duration: var(--animation-speed);
 }
-.wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu{
+.wrapper-1_HaEi:hover+.base-2jDfDU>.sidebar-1tnWFu{
     width:240px;
 }
 .sidebar-1tnWFu:hover {
