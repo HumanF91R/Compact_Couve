@@ -72,11 +72,13 @@
     transition-duration: var(--animation-speed);
 }
 .wrapper-1_HaEi:hover+.base-2jDfDU>.sidebar-1tnWFu{
+	z-index: 5;
     width:240px;
 }
 .sidebar-1tnWFu:hover {
     width:240px;
 }
+
 
 /*Friends List*/
 :root{
