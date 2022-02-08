@@ -7,7 +7,10 @@
 
 /*Minified Members & Search*/
 /*By Fitil, Search fix by Cryptogenic*/
+
 .members-3WRCEx, .membersWrap-3NUR2t, .searchResultsWrap-5RVOkx {
+  padding-top: 0px;
+  margin-top: 0px;	
   border-radius: 0 0 0 0 !important;
   width: 64px;
   min-width: 64px;
@@ -38,11 +41,6 @@
 .chatContent-3KubbW[aria-label=" (channel)"] {
   min-width: 100%;
   max-width: 100%;
-}
-/* Remove the below to still have role names*/
-.membersWrap-3NUR2t:not(:hover) .membersGroup-2eiWxl{
-  height: 0px;
-  padding: 0px;
 }
 
 /*Minimized Now Playing Column*/
