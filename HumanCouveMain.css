@@ -263,6 +263,9 @@ background-repeat: no-repeat;}
     padding-top: 16px;
     margin-top: -16px !important;
     }
+.form-3gdLxP:before{
+	content: none;
+    }
 :root .container-ZMc96U.title-31SJ6t:not(.minimum-fXpVNc){
     background: var(--background-secondary);
     width: calc(100% - 0px) !important;
