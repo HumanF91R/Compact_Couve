@@ -82,6 +82,10 @@
 .platform-win .sidebar-1tnWFu{
 	margin-left:18px
 }
+:root .panels-3wFtMD > .container-YkUktl {
+    padding: 0px 0px !important;
+    padding-bottom: 20px;
+}
 
 /*Friends List*/
 :root{
