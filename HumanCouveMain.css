@@ -277,7 +277,7 @@ background-repeat: no-repeat;}
     margin-top: 25px;
 }
 .base-3bcbY3{
-    height: 100px;
+    height: 110px;
 }
 /*Top*/
 :root .container-ZMc96U.title-31SJ6t:not(.minimum-fXpVNc){
@@ -285,3 +285,19 @@ background-repeat: no-repeat;}
     width: calc(100% - 0px) !important;
     padding-right: 240px;
     }
+
+/* Userbg patch for couve */
+.accountProfileCard-lbN7n->.UserBackgrounds-banner-container {
+    height: 200px !important;
+    width: 508px;
+
+}
+:root .accountProfileCard-lbN7n- .userInfo-regn9W{
+    margin-left: 0px !important;
+    width: 508px;   
+    padding-left: 40px;
+    background-image: linear-gradient(to left, var(--background-secondary), #0000);
+}
+.UserBackgrounds-banner-container {
+    position: static !important;
+}
