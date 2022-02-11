@@ -249,3 +249,16 @@ background-repeat: no-repeat;}
         transform: scale(1.1);
     }
 
+/* Top and Bottom Bars*/
+.form-3gdLxP {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	padding-top: 16px;
+	margin-top: -16px !important;
+	background: var(--background-secondary);
+
+:root .container-ZMc96U.title-31SJ6t:not(.minimum-fXpVNc){
+	background: var(--background-secondary);
+	width: calc(100% - 0px) !important;
+	padding-right: 240px;
+	}
