@@ -83,10 +83,12 @@
 	margin-left:18px
 }
 :root .panels-3wFtMD > .container-YkUktl {
-    padding: 15px !important;
-    padding-bottom: 20px;
-    padding-top: 0px
+    margin-bottom: 40px;
+    margin-top: 0px;
+    height: 20px;
+    background: var(--background-secondary);
 }
+
 
 /*Friends List*/
 :root{
