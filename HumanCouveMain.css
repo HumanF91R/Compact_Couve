@@ -79,6 +79,9 @@
 .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu{
 	width:240px;
 }
+.platform-win .sidebar-1tnWFu{
+	margin-left:18px
+}
 
 /*Friends List*/
 :root{
