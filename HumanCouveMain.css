@@ -272,19 +272,25 @@ background-repeat: no-repeat;}
 .scrollableContainer-15eg7h{
     border-radius: 0px;
 }
-:root .scrollableContainer-15eg7h, :root .wrapper-2SplAX{
+:root .scrollableContainer-15eg7h, :root .wrapper-2SplAX {
     margin-bottom: -25px;
-    margin-top: 25px;
+    margin-top: 20px;
+    padding-bottom: 22px;
+    padding-top: 25px;
+    margin-right: -10px;
 }
 .base-3bcbY3{
     height: 110px;
+}
+.sansAttachButton-1ERHue{
+    padding-left: 16px;
 }
 /*Top*/
 :root .container-ZMc96U.title-31SJ6t:not(.minimum-fXpVNc){
     background: var(--background-secondary);
     width: calc(100% - 0px) !important;
     padding-right: 240px;
-    }
+}
 
 /* Userbg patch for couve */
 .accountProfileCard-lbN7n->.UserBackgrounds-banner-container {
@@ -300,4 +306,16 @@ background-repeat: no-repeat;}
 }
 .UserBackgrounds-banner-container {
     position: static !important;
+}
+
+/* Skinnier server list*/
+:root .guilds-2JjMmN {
+    width: 72px !important;
+}	
+.platform-win .appMount-2yBXZl .app-3xd6d0 .scroller-3X7KbA{
+	margin-left: -10px;
+}
+:root .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW[aria-expanded=false]{
+	left: 19px !important;
+	bottom: 19px !important;
 }
