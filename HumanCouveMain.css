@@ -327,10 +327,7 @@ background-repeat: no-repeat;}
 .UserBackgrounds-banner-container {
     position: static !important;
 }
-.UserBackgrounds-banner-badge{
-    bottom: 442px !important;
-    right: 25px !important;
-}
+
 /* Skinnier server list*/
 :root .guilds-2JjMmN {
     width: 72px !important;
