@@ -328,3 +328,18 @@ background-repeat: no-repeat;}
 	top: -10px !important;
 	width: 45px !important;
 }
+
+/*Role tint in user list*/
+.avatar-6qzftW {z-index: 1}
+.roleColor-nA7BqX::after {
+  content: "";
+  background: currentColor;
+  width: 87%;
+  height: 73%;
+  margin-top: 6px;
+  margin-left: 16px;
+  position: absolute;
+  opacity: 0.04;
+  left: 0;
+  top: 0;
+}
