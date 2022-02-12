@@ -296,6 +296,9 @@ background-repeat: no-repeat;}
     width: calc(100% - 0px) !important;
     padding-right: 240px;
 }
+.children-3xh0VB:after{
+	display: none;
+}
 
 /* Userbg patch for couve */
 .accountProfileCard-lbN7n->.UserBackgrounds-banner-container {
