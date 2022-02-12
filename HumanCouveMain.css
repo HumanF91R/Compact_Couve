@@ -10,6 +10,10 @@
 :root .premiumLabel-V52REm {
     flex-direction: row;
 }
+/* Offcentered picture in user profile settings*/
+.avatarUploader-qEFQS2{
+    left: 105px;
+}
 
 
 /*Minified Members & Search*/
