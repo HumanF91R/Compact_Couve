@@ -1,0 +1,65 @@
+/**
+ * @name Compact_Couve
+ * @author A user#8169, Nyria#3863, HumanF91R-8#0548
+ * @authorid 265924886461939712
+ * @description A new look to discord
+ * @invite rtBQX5D3bD
+ * @version Auto Update
+*/
+
+@import url('https://humanf91r.github.io/Compact_Couve/HumanCouveMain.css');
+
+/* Settings */
+:root {
+    
+    /* Colors */
+    --main-color: #419e85;
+
+    /* Borders */
+    --avatar-radius: 5px;
+
+    /*Animation speeds*/
+    --animation-speed: 800ms;
+}
+
+/* Dark/Light vars */
+.theme-dark {
+
+    /* BGs */
+    --background-primary: #252a3e;
+    --background-secondary: #1e2337;
+    --background-secondary-alt: #1c2438;
+    --background-secondary-alt-alt: #1b1d31;
+    --background-tertiary: #060c24;
+    
+    --deprecated-store-bg: var(--background-primary);
+    --background-floating: var(--background-secondary);
+
+    --colortransparency: #0003;
+
+    /* Cards */
+    --card: #212332;
+
+    /* Other stuff */
+    --textcolor: #fff;
+    --epicshadow1: #fff3;
+}
+
+.theme-light {
+
+    /* BGs */
+    --background-primary: #fafafa;
+    --background-secondary: #f7f7f7;
+    --background-secondary-alt: #fff;
+    --background-secondary-alt-alt: #eee;
+    --background-tertiary: #fff;
+    
+    --colortransparency: #0001;
+
+    /* Cards */
+    --card: #aaaaaa;
+
+    /* Other stuff */
+    --textcolor: #000;
+    --epicshadow1: #0003;
+}
