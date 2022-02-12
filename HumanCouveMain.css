@@ -16,6 +16,7 @@
 }
 .UserDetails-dates-container{
 	margin-bottom: -58px !important;
+	justify-content: center;
 }
 
 /*Minified Members & Search*/
