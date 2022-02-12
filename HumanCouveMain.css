@@ -10,6 +10,13 @@
 :root .premiumLabel-V52REm {
     flex-direction: row;
 }
+/*Patch For user details*/
+.date-YN6TCS + *:not(.date-YN6TCS){
+	margin-top: 55px !important;
+}
+.UserDetails-dates-container{
+	margin-bottom: -58px !important;
+}
 
 /*Minified Members & Search*/
 /*By Fitil, Search fix by Cryptogenic*/
