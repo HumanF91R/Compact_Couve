@@ -281,6 +281,11 @@ background-repeat: no-repeat;}
 .sansAttachButton-1ERHue{
     padding-left: 16px;
 }
+:root .scrollableContainer-15eg7h, :root .wrapper-2SplAX {
+    margin-bottom: -24px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
 /*Top*/
 :root .container-ZMc96U.title-31SJ6t:not(.minimum-fXpVNc){
     background: var(--background-secondary);
