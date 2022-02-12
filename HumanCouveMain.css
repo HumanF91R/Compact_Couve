@@ -327,6 +327,9 @@ background-repeat: no-repeat;}
 .UserBackgrounds-banner-container {
     position: static !important;
 }
+.UserBackgrounds-banner-badge{
+    display: none;
+}
 
 /* Skinnier server list*/
 :root .guilds-2JjMmN {
