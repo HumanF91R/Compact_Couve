@@ -108,7 +108,8 @@
 --csbg: url('https://cdn.discordapp.com/attachments/840053127956922408/854386324307181588/Couve_Gradient.png');}
 /* Online count */
 .peopleList-2VBrVI {
-padding-top: 100px;}
+margin-top: 100px;
+padding-top: 10px;}
 .peopleList-2VBrVI .title-x4dI75 { 
 font-size: 18px;
 text-align: center;
