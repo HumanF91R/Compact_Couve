@@ -53,7 +53,7 @@
 
 /*Minimized Now Playing Column*/
 .nowPlayingColumn-1eCBCN {
-  transform: translateX(82%);
+  transform: translateX(100%);
   transition: var(--animation-speed);
   z-index: 2;
 }
@@ -67,7 +67,11 @@
     height: 100%;
 }
 :root .container-2cd8Mz .nowPlayingColumn-1eCBCN .container-1oAagU .scroller-hE2gWq{
-  background-color: var(--background-secondary);
+    background-color: var(--background-secondary);
+}
+:root .container-2cd8Mz .nowPlayingColumn-1eCBCN .container-1oAagU .scroller-hE2gWq{
+    height: 900px;
+    bottom: 10px;
 }
 
 /* Hover over server list to show channels */
