@@ -10,6 +10,10 @@
 :root .premiumLabel-V52REm {
     flex-direction: row;
 }
+/*Stream Button too low*/
+.actions-zk2vB_{
+    padding-bottom: 14px;
+}
 /* Offcentered picture in user profile settings*/
 .avatarUploader-qEFQS2{
     left: 105px;
