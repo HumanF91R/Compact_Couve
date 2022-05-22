@@ -11,7 +11,7 @@
     flex-direction: row;
 }
 /*Stream Button too low*/
-:root .panels-3wFtMD .activityPanel-9icbyU
+:root .panels-3wFtMD .activityPanel-9icbyU{
     bottom: 34px;
 }
 /* Offcentered picture in user profile settings*/
