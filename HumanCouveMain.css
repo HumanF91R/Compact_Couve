@@ -22,6 +22,18 @@
 .pill-2RsI5Q{
     left: 10px
 }
+/*Activity not fitting patch*/
+.userProfileActivity-sal5no{
+     padding-bottom: 9px;
+}
+/*Connections not fitting patch*/
+.connectedAccount-1xKpli, .connectedAccounts-1YaT2t{
+     padding-bottom: 50px;
+}
+/*Search menu sizing*/
+:root .searchResultsWrap-5RVOkx{
+     width: 418px;
+}
 
 /*Minified Members & Search*/
 /*By Fitil, Search fix by Cryptogenic*/
@@ -219,8 +231,8 @@ background-repeat: no-repeat;}
 .homeIcon-r0w4ny path {fill: transparent}
 .homeIcon-r0w4ny {
     background: url('https://nyri4.github.io/Couve/assets/icon.png') center/cover no-repeat;
-    min-width: 60px;
-    min-height: 60px;
+    min-width: 61px;
+    min-height: 61px;
 }
 
 /*Gradient starts at colour two due to how Discord handles channel lists.*/
@@ -323,7 +335,7 @@ background-repeat: no-repeat;}
 /* Userbg patch for couve */
 .accountProfileCard-lbN7n->.UserBackgrounds-banner-container {
     height: 200px !important;
-    width: 508px;
+    width: 518px;
 
 }
 :root .accountProfileCard-lbN7n- .userInfo-regn9W{
