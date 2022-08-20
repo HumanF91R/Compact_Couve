@@ -372,6 +372,9 @@ background-repeat: no-repeat;}
 	top: -10px !important;
 	width: 45px !important;
 }
+:root .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW[aria-expanded] .wrapper-1VLyxH{
+	left: 20px; !important;
+}
 
 /*Role tint in user list*/
 .avatar-6qzftW {z-index: 1}
