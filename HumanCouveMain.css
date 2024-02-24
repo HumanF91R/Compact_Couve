@@ -6,7 +6,7 @@
 @import url('https://discordstyles.github.io/Fluent/Icons.css');
 /*Small Patches*/
 
-/*Fullscreen Settings +some corrections*/
+/*Fullscreen Settings +some corrections by ME*/
 :root .layer__2efaa:not(.baseLayer__8fda3) {
     margin-left: 0px;
 }
@@ -29,8 +29,7 @@
     padding: 12px 25px 12px 25px;
 }
 
-/* Friends List Backgrounds*/
-/*by ME*/
+/* Friends List Backgrounds by ME*/
 .listItemContents__7c940 .userInfo__18240{
     padding: 8px 8px 8px 8px;
     background: linear-gradient(
@@ -43,8 +42,7 @@
     translate: 0px 3.5px;
 }
 
-/*Improved Links*/
-/*by https://github.com/Riddim-GLiTCH no edits made*/
+/*Improved Links by https://github.com/Riddim-GLiTCH no edits made*/
 :root [class^=message_] [class^=contents_] [class^=anchor_], [class^=message_] [class^=repliedMessage_] [class^=anchor_], [class^=message_] [class^=modal] [class^=anchor_], [class^=message_] [class^=topic_] [class^=anchor_], [class^=focusLock] [class^=contents_] [class^=anchor_], [class^=focusLock] [class^=repliedMessage_] [class^=anchor_], [class^=focusLock] [class^=modal] [class^=anchor_], [class^=focusLock] [class^=topic_] [class^=anchor_], [class^=title] [class^=contents_] [class^=anchor_], [class^=title] [class^=repliedMessage_] [class^=anchor_], [class^=title] [class^=modal] [class^=anchor_], [class^=title] [class^=topic_] [class^=anchor_] {
   transition: background-color 50ms ease-out, color 50ms ease-out;
   color: var(--mention-foreground);
@@ -68,8 +66,7 @@
   filter: grayscale(0.5);
 }
 
-/*Prettier Input Bar*/
-/*by https://github.com/Riddim-GLiTCH minor edits made to fit*/
+/*Prettier Input Bar by https://github.com/Riddim-GLiTCH minor edits made to fit*/
 [class^=channelTextArea_] [class^=buttons_]::before,
 [class^=channelTextArea_] [class^=buttons_]::after /* Adds a new button to the text area */ {
   content: "≡";
@@ -110,8 +107,7 @@
   margin-right: 8px;
   scale: 0 1;
 }
-/*Improved User Area*/
-/*by https://github.com/Riddim-GLiTCH minor edits made to fit*/
+/*Improved User Area by https://github.com/Riddim-GLiTCH minor edits made to fit*/
 
     /* Adds an @ to the username. Discord, for the love of god, just add this yourself already. */
 .container_ca50b9 .hovered__243e5::before{
