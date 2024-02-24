@@ -184,7 +184,28 @@
   border-radius: 0!important;
 }
 
-/*Minified Members & Search*/
+/*Small Member list by Riddim Glitch*/
+.container_b2ce9c {
+  transition: 0.3s ease-in-out;
+  margin-right: -180px;
+}
+.container_b2ce9c .membersGroup__85843 {
+  transition: 0.3s ease-in-out;
+  height: 0px!important;
+  margin-top: -25px;
+}
+.container_b2ce9c:hover .membersGroup__85843 {
+  height: unset!important;
+  margin-top: unset!important;
+}
+.container_b2ce9c:hover{
+  margin-right: unset!important;
+}
+:root .container__11d72.title_b7d661:not(.minimum_ebf000){
+	background:var(--background-secondary);
+	width: calc(100% - 60px);
+	padding-right: 180px;
+}
 
 /*Minimized Now Playing Column*/
 
