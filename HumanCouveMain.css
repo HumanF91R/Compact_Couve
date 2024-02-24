@@ -29,6 +29,20 @@
     padding: 12px 25px 12px 25px;
 }
 
+/* Friends List Backgrounds*/
+/*by ME*/
+.listItemContents__7c940 .userInfo__18240{
+    padding: 8px 8px 8px 8px;
+    background: linear-gradient(
+          rgba(0, 0, 0, 0.2), 
+          rgba(0, 0, 0, 0.6) )
+          , url(https://cdn.discordapp.com/attachments/840053127956922408/854386324307181588/Couve_Gradient.png?ex=65e73e45&is=65d4c945&hm=6bbfb34ef2760bff40433a11c8587f48a3da9c002f0dfc92c888a2e067acbce0&) ;
+    border-radius: 10px;
+}
+.listItemContents__7c940 .userInfo__18240 .wrapper_edb6e0{
+    translate: 0px 3.5px;
+}
+
 /*Improved Links*/
 /*by https://github.com/Riddim-GLiTCH no edits made*/
 :root [class^=message_] [class^=contents_] [class^=anchor_], [class^=message_] [class^=repliedMessage_] [class^=anchor_], [class^=message_] [class^=modal] [class^=anchor_], [class^=message_] [class^=topic_] [class^=anchor_], [class^=focusLock] [class^=contents_] [class^=anchor_], [class^=focusLock] [class^=repliedMessage_] [class^=anchor_], [class^=focusLock] [class^=modal] [class^=anchor_], [class^=focusLock] [class^=topic_] [class^=anchor_], [class^=title] [class^=contents_] [class^=anchor_], [class^=title] [class^=repliedMessage_] [class^=anchor_], [class^=title] [class^=modal] [class^=anchor_], [class^=title] [class^=topic_] [class^=anchor_] {
