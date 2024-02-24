@@ -204,7 +204,10 @@
 :root .container__11d72.title_b7d661:not(.minimum_ebf000){
 	background:var(--background-secondary);
 	width: calc(100% - 60px);
-	padding-right: 180px;
+	padding-right: 165px;
+}
+:root .membersWrap__90226 .members__9f47b .member_aa4760 .layout_bb8e67{
+  padding-left: 16px;
 }
 
 /*Minimized Now Playing Column*/
