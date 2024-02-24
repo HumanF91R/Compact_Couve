@@ -6,16 +6,47 @@
 @import url('https://discordstyles.github.io/Fluent/Icons.css');
 /*Small Patches*/
 /*User modal Adjusments*/
-:root .userProfileModalInner__7c87d .userProfileModalOverlayBackground__52d65 .body_ea740e .tabBarContainer__63f55{
-    bottom: 100px;
-}
-
 .root_a28985 .tabBarContainer__63f55{
     padding: 16px;
 }
 /*Color Corrections*/
 .theme-dark .container_ca50b9{
     background: var(--background-secondary);
+}
+.selected_d94cf9,{
+    background: var(--background-primary);
+}
+.modeSelected__487d6 .link__95dc0, .modeSelected__487d6 .link__95dc0 {
+    background: var(--background-primary);
+}
+:root .wrapper__7bcde :hover{
+    background: #1a523f;
+    border-radius: 5px;
+}
+.channel_c21703{
+    background-color: var(--background-secondary);
+}
+
+.channel_c21703 :hover{
+    background-color:  #1a523f;
+    border-radius: 10px;
+}
+:root .membersWrap__90226 .members__9f47b .member_aa4760 {
+    background-color: var(--background-secondary);
+    transition: background-color 0.3s ease;
+}
+:root .membersWrap__90226 .members__9f47b .member_aa4760 :hover{
+    background-color: #1a523f;
+    border-radius: 10px;
+}
+
+:root .peopleListItem_d14722{
+    background: transparent;
+    border-radius: 10px;
+    transition:0.3s ease-in-out;
+}
+:root .peopleListItem_d14722:hover{
+    background: linear-gradient(0.4turn,var(--main-color), #1a523f);
 }
 
 /*Fullscreen Settings +some corrections by ME*/
@@ -40,7 +71,9 @@
 :root .header__104ca{
     padding: 12px 25px 12px 25px;
 }
-
+.listItemContents__7c940 .userInfo__18240 .wrapper_edb6e0{
+    translate: 0px 3.5px;
+}
 /*Improved Links by https://github.com/Riddim-GLiTCH no edits made*/
 :root [class^=message_] [class^=contents_] [class^=anchor_], [class^=message_] [class^=repliedMessage_] [class^=anchor_], [class^=message_] [class^=modal] [class^=anchor_], [class^=message_] [class^=topic_] [class^=anchor_], [class^=focusLock] [class^=contents_] [class^=anchor_], [class^=focusLock] [class^=repliedMessage_] [class^=anchor_], [class^=focusLock] [class^=modal] [class^=anchor_], [class^=focusLock] [class^=topic_] [class^=anchor_], [class^=title] [class^=contents_] [class^=anchor_], [class^=title] [class^=repliedMessage_] [class^=anchor_], [class^=title] [class^=modal] [class^=anchor_], [class^=title] [class^=topic_] [class^=anchor_] {
   transition: background-color 50ms ease-out, color 50ms ease-out;
