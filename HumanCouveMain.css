@@ -35,7 +35,7 @@
     background: linear-gradient(
           rgba(0, 0, 0, 0.2), 
           rgba(0, 0, 0, 0.6) )
-          , url(https://cdn.discordapp.com/attachments/840053127956922408/854386324307181588/Couve_Gradient.png?ex=65e73e45&is=65d4c945&hm=6bbfb34ef2760bff40433a11c8587f48a3da9c002f0dfc92c888a2e067acbce0&) ;
+          , url(https://cdn.discordapp.com/attachments/548624614192971799/1211015440495677481/Couve_Gradient_22.png?ex=65eca904&is=65da3404&hm=3249b6d1f4df3622177b0e83683e0cb5cad4189ae4e7dc47b67e611f95e2fa39&) ;
     border-radius: 10px;
 }
 .listItemContents__7c940 .userInfo__18240 .wrapper_edb6e0{
@@ -145,6 +145,23 @@
 /*Couve Home Button by Nyria*/
 .childWrapper__01b9c { background:url('https://nyri4.github.io/Couve/assets/icon.png') center/cover no-repeat !important; scale: 1.5;}
 .childWrapper__01b9c > svg { display: none;}
+
+/*Couve Extra Gradients stolen by GravefulLion(origional link no worky) Updated and changed by me*/
+.progressBar_db0972, .guildSeparator_dcb3cc  {
+    background: linear-gradient(to right, #419e85, #009697, #008ba9, #007db6, #116cb6) !important;
+}
+/*by GracefulLion updated by me*/
+.actions-1mkm4H [role="switch"][aria-checked="true"] .text-sm-bold-2BCfqW {
+  color: var(--main-color) !important;
+}
+.mentionIcon__27172, .text-sm-bold__33e9d {
+  color: var(--main-color) !important;
+}
+/*add hover colors to everything by HereToHelp updated by me*/
+:root .lookFilled__19298.colorBrand_b2253e:hover {
+  background: #2e8568 !important;
+  background-color: #2e8568 !important;
+}
 
 /*Gradient starts at colour two due to how Discord handles channel lists.*/
 .theme-dark {
