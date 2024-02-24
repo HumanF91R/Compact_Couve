@@ -3,237 +3,32 @@
 @import url('https://nyri4.github.io/Discolored/main.css');
 @import url('https://hoyupu.github.io/ColouredChannels/main.css');
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css'); 
-@import url('https://flashc0rd.github.io/BetterBG/bg/backgrounds.css');
 
 /* Small Patches*/
-/* Discord Nitro Spacing from Icon?*/
-:root .premiumLabel-V52REm {
-    flex-direction: row;
-}
-/*Stream Button too low*/
-:root .panels-3wFtMD .activityPanel-9icbyU{
-    bottom: 34px;
-}
-/* Offcentered picture in user profile settings*/
-.avatarUploader-qEFQS2{
-    left: 105px;
-}
-/*Notification Icons*/
-.pill-2RsI5Q{
-    left: 10px
-}
-/*Activity not fitting patch*/
-.userProfileActivity-sal5no{
-     padding-bottom: 9px;
-}
-/*Connections not fitting patch*/
-.connectedAccount-1xKpli, .connectedAccounts-1YaT2t{
-     padding-bottom: 50px;
-}
-/*Search menu sizing*/
-:root .searchResultsWrap-5RVOkx{
-     width: 418px;
-}
 
 /*Minified Members & Search*/
-/*By Fitil, Search fix by Cryptogenic*/
-
-.members-3WRCEx, .membersWrap-3NUR2t, .searchResultsWrap-5RVOkx {	
-  border-radius: 0 0 0 0 !important;
-  width: 64px;
-  min-width: 64px;
-  transition-property: width, min-width;
-  transition-duration: 0.8s;
-}
-:root .membersWrap-3NUR2t, .members-3WRCEx {
-  margin-top: 0px !important;
-  padding-top: 0px !important;
-}	
-.members-3WRCEx:hover, .membersWrap-3NUR2t:hover {
-  width: 240px;
-  min-width: 240px;
-}
-.searchResultsWrap-5RVOkx:hover {
-  width: 418px;
-  min-width: 418px;
-}
-.searchResultGroup-1lU_-i {
-  width: 394px;
-}
-.membersWrap-3NUR2t, .searchResultsWrap-5RVOkx {
-  position: absolute;
-  right: 0;
-  height: 100%;
-  box-shadow: none;
-}
-.chatContent-3KubbW {
-  min-width: calc(100% - 64px);
-  max-width: calc(100% - 64px);
-}
-.chatContent-3KubbW[aria-label=" (channel)"] {
-  min-width: 100%;
-  max-width: 100%;
-}
 
 /*Minimized Now Playing Column*/
-.nowPlayingColumn-1eCBCN {
-  transform: translateX(95%);
-  transition: var(--animation-speed);
-  z-index: 2;
-}
-.nowPlayingColumn-1eCBCN:hover {
-  transform: none;
-}
-.peopleList-2VBrVI {
-    position: absolute;
-    padding-bottom: 8px;
-    width: 95%;
-    height: 100%;
-}
-:root .container-2cd8Mz .nowPlayingColumn-1eCBCN .container-1oAagU .scroller-hE2gWq{
-    background-color: var(--background-secondary);
-}
-:root .container-2cd8Mz .nowPlayingColumn-1eCBCN .container-1oAagU .scroller-hE2gWq{
-    height: 900px;
-    bottom: 10px;
-}
 
 /* Hover over server list to show channels */
-.sidebar-1tnWFu {
-    width: 0px;
-    transition: var(--animation-speed) ease;
-    transition-duration: var(--animation-speed);
-}
-.sidebar-1tnWFu{
-	width: 0px;position: fixed;left: 72px;z-index: 9;border-radius: 0px!important;height: 98%;
-}
-.sidebar-1tnWFu:hover{
-	width:240px;
-}
-.wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu{
-	width:240px;
-}
-:root .panels-3wFtMD > .container-YkUktl {
-    margin-bottom: 40px;
-    margin-top: 20px;
-    height: 0px;
-    background: var(--background-secondary);
-}
-
 
 /*Friends List*/
-:root{
---friendblockheight: 70px;
---csbg: url('https://cdn.discordapp.com/attachments/840053127956922408/854386324307181588/Couve_Gradient.png');}
+
 /* Online count */
-.peopleList-2VBrVI {
-margin-top: 100px;
-padding-top: 10px;}
-.peopleList-2VBrVI .title-x4dI75 { 
-font-size: 18px;
-text-align: center;
-line-height: 40px;
-height: var(--friendblockheight);
-border-radius: 8px;
-background-color: var(--background-tertiary);}
-[id="ONLINE-tab"] .peopleList-2VBrVI .title-x4dI75 {
-padding-left: 30px;
-color: #43B581;
-height: var(--friendblockheight)}
-[id="ONLINE-tab"] .peopleList-2VBrVI .title-x4dI75:before { 
-content: "";
-position: absolute;
-margin-left: -32px;
-margin-top: 13px;
-width: 14px;
-height: 14px;
-background-color: #43B581;
-border-radius: 50%;}
+
 /* USRBG */
-.avatar-2MSPKk.wrapper-1VLyxH:before {
-content: '';
-position: absolute;
-top: -20px; 
-left: -25px;
-min-width: 585px;
-height: var(--friendblockheight) !important;
-z-index: -1;
-opacity: 0.5;
-background: var(--user-background, var(--csbg));
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;}
-.userInfo-2WpsYG {
-background-color: var(--background-tertiary);
-border-radius: 8px;
-padding: 8px;
-margin-left: 6px;}
+
 /* Buttons */
-.actionButton-3-B2x-, .actionButton-3-B2x-.highlight-3DSi7b {border-radius: 8px;}
-.searchBar-2aylmZ, .sectionTitle-36PWt2{z-index: 1;}
+
 /* Fuck Borders */
-.peopleListItem-u6dGxF {
-border-top: 0px solid var(--background-modifier-accent);}
+
 /* tajmahal? / Bruh / Why is this here? */
-.userInfo-2WpsYG, .actions-YHvpIT {position: relative; z-index: 1;}
-.searchBar-2aylmZ {
-margin: 0px 0px 0px 0px;
-padding: 16px 20px 8px 30px;
-background: var(--background-primary);}
 
 /*Custom Right Click Menu Animation*/
-.toolbar-3_r2xA a {
-  display: none;
-}
-
-#private-channels a[href="/store"] {
-    display: none;
-}
-
-.menu-1QACrS {
-    animation: custom-menu-animation var(--animation-speed) ease;
-    transform-origin: top;
-}
-
-@keyframes custom-menu-animation {
-    0% {
-        transform: scaleY(0);
-    }
-    100% {
-        transform: scaleY(1);
-    }
-}
 
 /* Colorful Chatbar */
-.sprite-2lxwfc {
-filter: grayscale(0%) !important;}
-.stickerButton-1-nFh2 {
-background: url("https://cdn.discordapp.com/attachments/751155896024826018/851923776672104518/stickers.png");
-background-size: 20px;
-background-position-x: 5px;
-background-position-y: 5px;
-background-repeat: no-repeat;}
-.icon-1d5zch {
-background: url("https://cdn.discordapp.com/attachments/751155896024826018/851920865511079996/unknown.png");
-background-size: 20px;
-background-position-x: 2px;
-background-position-y: 4px;
-background-repeat: no-repeat;}
-[aria-label="Send a gift"] {
-background: url("https://cdn.discordapp.com/attachments/751155896024826018/851926915350134834/unknown.png");
-background-size: 25px;
-background-position-x: 13px;
-background-position-y: 15px;
-background-repeat: no-repeat;}
-.contents-3ca1mk, .button-2fCJ0o, .button-3BaQ4X path {fill: transparent;}
 
 /*Couve Home Button*/
-.homeIcon-r0w4ny path {fill: transparent}
-.homeIcon-r0w4ny {
-    background: url('https://nyri4.github.io/Couve/assets/icon.png') center/cover no-repeat;
-    min-width: 61px;
-    min-height: 61px;
-}
 
 /*Gradient starts at colour two due to how Discord handles channel lists.*/
 .theme-dark {
@@ -250,143 +45,20 @@ background-repeat: no-repeat;}
   }
 
 /*Slide in Messages*/
-@keyframes slide-up {
-    0% {
-        opacity: 0;
-        transform: translateX(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-.message-2CShn3 {
-  animation: slide-up 0.4s ease;
-}
 
 /* Channel hover and click animation */
-    .containerDefault-YUSmu3 {
-    transition: all 0.5s;
-}
-    .containerDefault-YUSmu3:hover {
-    transition: all 0.2s;
-    transform: translatex(-3px);
-}
-    .containerDefault-YUSmu3:active {
-    transition: all 0.2s;
-    transform: translatex(1px);
-}
 
 /* Member hover animation */
-    .member-2gU6Ar {
-    transition: all 0.5s;
-}
-    .member-2gU6Ar:hover {
-    transition: all 0.2s;
-    transform: translatex(-3px);
-}
 
 /* Server hover animation */
-   
-    .wrapper-28eC3z {
-        transition: transform 0.2s;
-}
-    .wrapper-28eC3z:hover {
-        transform: scale(1.1);
-}
 
 /* Top and Bottom Bars*/
 /*Bottom*/
-.form-3gdLxP {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-    margin-top: -25px !important;
-}
-.form-3gdLxP:before{
-    content: none;
-}
-.scrollableContainer-15eg7h{
-    border-radius: 0px;
-}
-.sansAttachButton-1ERHue{
-    padding-left: 16px;
-}
-:root .scrollableContainer-15eg7h, :root .wrapper-2SplAX {
-    margin-bottom: -24px;
-    padding-top: 14px;
-    padding-bottom: 12px;
-}
-.base-3bcbY3{
-	margin-bottom: 43px;
-}
+
 /*Top*/
-:root .container-ZMc96U.title-31SJ6t:not(.minimum-fXpVNc){
-    background: var(--background-secondary);
-    width: calc(100% - 0px) !important;
-    padding-right: 240px;
-}
-.children-3xh0VB:after{
-	display: none;
-}
-.container-ZMc96U.themed-Hp1KC_{
-	background: var(--background-secondary)
-}
 
 /* Userbg patch for couve */
-.accountProfileCard-lbN7n->.UserBackgrounds-banner-container {
-    height: 200px !important;
-    width: 518px;
-
-}
-:root .accountProfileCard-lbN7n- .userInfo-regn9W{
-    margin-left: 0px !important;
-    width: 508px;   
-    padding-left: 40px;
-    background-image: linear-gradient(to left, var(--background-secondary), #0000);
-}
-.UserBackgrounds-banner-container {
-    position: static !important;
-}
-.UserBackgrounds-banner-badge{
-    display: none;
-}
 
 /* Skinnier server list*/
-:root .guilds-2JjMmN {
-    width: 72px !important;
-}	
-.platform-win .appMount-2yBXZl .app-3xd6d0 .scroller-3X7KbA{
-	margin-left: -10px;
-}
-:root .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW[aria-expanded=false]{
-	left: 19px !important;
-	bottom: 19px !important;
-}
-.platform-win .standardSidebarView-E9Pc3j{
-	left: -20px
-}
-.withFrame-2dL45i{
-	height: 18px !important;
-}
-.withFrame-2dL45i .winButton-3UMjdg{
-	top: -10px !important;
-	width: 45px !important;
-}
-:root .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW[aria-expanded] .wrapper-1VLyxH{
-	left: 20px; !important;
-}
 
 /*Role tint in user list*/
-.avatar-6qzftW {z-index: 1}
-.roleColor-nA7BqX::after {
-  content: "";
-  background: currentColor;
-  width: 87%;
-  height: 73%;
-  margin-top: 6px;
-  margin-left: 16px;
-  position: absolute;
-  opacity: 0.04;
-  left: 0;
-  top: 0;
-}
