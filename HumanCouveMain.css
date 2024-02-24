@@ -57,7 +57,7 @@
 }
 [class^=channelTextArea_] [class^=buttons_] [class^=button_] /* Adjust the width and visibility of the buttons for a smoother transition */ {
   transition: all ease-in-out 0.3s;
-  width: 0;
+  width: 10;
   opacity: 0;
 }
 [class^=channelTextArea_] [class^=buttons_]:hover /* Reveal all buttons on hover */ {
