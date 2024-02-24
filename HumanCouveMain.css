@@ -197,8 +197,7 @@
     width: 75px;
   }
   .sidebar_ded4b5:has(.privateChannelsHeaderContainer_ddcec6) .privateChannelsHeaderContainer_ddcec6{
-    opacity: 0;
-    margin-top: -40px;
+    display: none;
   }
   .sidebar_ded4b5:has(.privateChannelsHeaderContainer_ddcec6):not(:hover) .favoriteIcon_b001ac{
     display: none;
@@ -206,15 +205,16 @@
   .sidebar_ded4b5 .activityPanel__22355 .actions__9256d{
     opacity: 0;
   }
-  .sidebar_ded4b5 .activityPanel__22355 .gameIcon__90c32,
-  .sidebar_ded4b5 .container_ca50b9 .avatar_f8541f{
+  .sidebar_ded4b5 .activityPanel__22355 .gameIcon__90c32{
     scale: 1.3;
     margin-left: 3px;
   }
-  .sidebar_ded4b5:has(.privateChannelsHeaderContainer_ddcec6) .activityPanel__22355 .gameIcon__90c32,
-  .sidebar_ded4b5:has(.privateChannelsHeaderContainer_ddcec6) .container_ca50b9 .avatar_f8541f{
+  .sidebar_ded4b5:has(.privateChannelsHeaderContainer_ddcec6) .activityPanel__22355 .gameIcon__90c32{
     scale: 1.3;
     margin-left: 8px;
+  }
+  .sidebar_ded4b5:has(.privateChannelsHeaderContainer_ddcec6) .container_ca50b9 .avatar_f8541f{
+    margin-left: 0px;
   }
   .sidebar_ded4b5 *{
     transition: ease-in-out 0.3s;
@@ -325,9 +325,11 @@
   .sidebar_ded4b5:hover{
     width: 250px!important;
   }
-
+    .interactiveSelected_ec846b{
+    margin-bottom: 15px;
+  }
 /*Settings Icon Hotfix!!*/
-.sidebar_ded4b5:not(:hover) .container_ca50b9 .flex_f5fbb7 {display: }
+.sidebar_ded4b5:not(:hover) .container_ca50b9 .flex_f5fbb7 {display: none}
 
 
 /*Couve Home Button by Nyria*/
