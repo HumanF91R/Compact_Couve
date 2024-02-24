@@ -5,6 +5,18 @@
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css'); 
 @import url('https://discordstyles.github.io/Fluent/Icons.css');
 /*Small Patches*/
+/*User modal Adjusments*/
+:root .userProfileModalInner__7c87d .userProfileModalOverlayBackground__52d65 .body_ea740e .tabBarContainer__63f55{
+    bottom: 100px;
+}
+
+.root_a28985 .tabBarContainer__63f55{
+    padding: 16px;
+}
+/*Color Corrections*/
+.theme-dark .container_ca50b9{
+    background: var(--background-secondary);
+}
 
 /*Fullscreen Settings +some corrections by ME*/
 :root .layer__2efaa:not(.baseLayer__8fda3) {
@@ -27,19 +39,6 @@
 }
 :root .header__104ca{
     padding: 12px 25px 12px 25px;
-}
-
-/* Friends List Backgrounds by ME*/
-.listItemContents__7c940 .userInfo__18240{
-    padding: 8px 8px 8px 8px;
-    background: linear-gradient(
-          rgba(0, 0, 0, 0.2), 
-          rgba(0, 0, 0, 0.6) )
-          , url(https://cdn.discordapp.com/attachments/548624614192971799/1211015440495677481/Couve_Gradient_22.png?ex=65eca904&is=65da3404&hm=3249b6d1f4df3622177b0e83683e0cb5cad4189ae4e7dc47b67e611f95e2fa39&) ;
-    border-radius: 10px;
-}
-.listItemContents__7c940 .userInfo__18240 .wrapper_edb6e0{
-    translate: 0px 3.5px;
 }
 
 /*Improved Links by https://github.com/Riddim-GLiTCH no edits made*/
