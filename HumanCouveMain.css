@@ -6,8 +6,31 @@
 
 /*Small Patches*/
 
+/*Fullscreen Settings +some corrections*/
+:root .layer__2efaa:not(.baseLayer__8fda3) {
+    margin-left: 0px;
+}
+.platform-win .appMount_fae9dd .app_b1f720 .scroller__3d071{
+    padding-top: 35px;
+}
+.platform-win .layers_a23c37, .platform-win .layers__1c917, .platform-win .layers_a23c37 > .layer__2efaa, .platform-win .container__037ed{
+    overflow: hidden;
+}
+.platform-win .standardSidebarView__1129a{
+    top: -22px;
+}
+:root .layer__2efaa .toolsContainer_f5d55d{
+    right: -12px;
+}
+:root .layer__2efaa .contentColumn_dc7d36, :root .layer__2efaa .customColumn_e22a6e{
+    max-width: 98%;
+}
+:root .header__104ca{
+    padding: 12px 25px 12px 25px;
+}
+
 /*Improved Links*/
-/*by https://github.com/Riddim-GLiTCH*/
+/*by https://github.com/Riddim-GLiTCH no edits made*/
 :root [class^=message_] [class^=contents_] [class^=anchor_], [class^=message_] [class^=repliedMessage_] [class^=anchor_], [class^=message_] [class^=modal] [class^=anchor_], [class^=message_] [class^=topic_] [class^=anchor_], [class^=focusLock] [class^=contents_] [class^=anchor_], [class^=focusLock] [class^=repliedMessage_] [class^=anchor_], [class^=focusLock] [class^=modal] [class^=anchor_], [class^=focusLock] [class^=topic_] [class^=anchor_], [class^=title] [class^=contents_] [class^=anchor_], [class^=title] [class^=repliedMessage_] [class^=anchor_], [class^=title] [class^=modal] [class^=anchor_], [class^=title] [class^=topic_] [class^=anchor_] {
   transition: background-color 50ms ease-out, color 50ms ease-out;
   color: var(--mention-foreground);
@@ -32,7 +55,7 @@
 }
 
 /*Prettier Input Bar*/
-/*by https://github.com/Riddim-GLiTCH*/
+/*by https://github.com/Riddim-GLiTCH minor edits made to fit*/
 [class^=channelTextArea_] [class^=buttons_]::before,
 [class^=channelTextArea_] [class^=buttons_]::after /* Adds a new button to the text area */ {
   content: "≡";
@@ -73,82 +96,14 @@
   margin-right: 8px;
   scale: 0 1;
 }
-/*Collapsed Toolbar Buttons*/
-/*by https://github.com/Riddim-GLiTCH*/
-.callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_]::before,
-.callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_]::after {
-  content: "";
-  font-size: unset;
-  scale: 1;
-}
-
-.callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_] {
-  transition: unset;
-  translate: unset;
-  padding-bottom: unset;
-  padding-left: unset;
-}
-.callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_]:hover {
-  translate: unset;
-}
-
-[class^=upperContainer_] [class^=toolbar_]::before,
-[class^=upperContainer_] [class^=toolbar_]::after {
-  content: "≡";
-  font-size: 2rem;
-  scale: 1;
-  color: var(--interactive-normal);
-  display: flex;
-  align-items: center;
-  position: absolute;
-  right: 100%;
-  height: 100%;
-  transition: scale 0.3s 0.1s ease-in-out;
-}
-[class^=upperContainer_] [class^=toolbar_]::before::after,
-[class^=upperContainer_] [class^=toolbar_]::after::after {
-  color: transparent;
-}
-
-[class^=upperContainer_] [class^=toolbar_] {
-  transition: all ease-in-out 0.3s;
-  translate: calc(100% - 8px);
-  padding-bottom: 5px;
-  padding-left: 20px;
-}
-[class^=upperContainer_] [class^=toolbar_][class^=icon_] {
-  transition: all ease-in-out 0.3s;
-  width: 0;
-  opacity: 0;
-}
-[class^=upperContainer_] [class^=toolbar_]:hover {
-  translate: 0%;
-  padding-left: 0px !important;
-}
-[class^=upperContainer_] [class^=toolbar_]:hover[class^=icon_] {
-  transition: all ease-in-out 0.5s;
-  width: unset;
-  opacity: 1;
-}
-[class^=upperContainer_] [class^=toolbar_]:hover::before {
-  margin-right: 8px;
-  scale: 0 1;
-}
 /*Improved User Area*/
-/*by https://github.com/Riddim-GLiTCH*/
-    /* Make both the username and status message visible at all times. */
-.container_ca50b9 .hovered__243e5, .hoverRoll__041cb.forceHover__71322:not(.disabled__89e5c) .default_cae228{
-  opacity: 1!important;
-  transform: none;
-}
+/*by https://github.com/Riddim-GLiTCH minor edits made to fit*/
+
     /* Adds an @ to the username. Discord, for the love of god, just add this yourself already. */
 .container_ca50b9 .hovered__243e5::before{
   content: "@";
 }
-    /* Move the custom Status message down so that it doesnt overlap with the Username */
-.default_cae228{
-  margin-top: 15px;
-}
+
     /* Credit to @thecommieaxolotl for this code. */
     /* --Hides User Buttons until Hover-- */
     /* Hide mute and deafen buttons */
@@ -166,13 +121,9 @@
 .avatarWrapper_ba5175{
   transition: all 0.3s ease-in-out;
   width: 100%!important;
-  margin-left: -10px;
+  margin-left: 0px;
   height: 53px;
   border-radius: 0!important;
-}
-    /* Move the avatar back to the right a bit to look clean. */
-.avatarWrapper_ba5175 .avatar_f8541f{
-  margin-left: 10px;
 }
 
 /*Minified Members & Search*/
