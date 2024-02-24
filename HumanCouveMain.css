@@ -15,6 +15,9 @@
 .premiumTrialBadge_f2180d {
     display: none;
 }
+.sidebar_ded4b5:has(.privateChannelsHeaderContainer_ddcec6) .privateChannelsHeaderContainer_ddcec6{
+    margin-top: -30px;
+}
 /*User modal Adjusments*/
 .root_a28985 .tabBarContainer__63f55{
     padding: 16px;
@@ -23,20 +26,24 @@
 .theme-dark .container_ca50b9{
     background: var(--background-secondary);
 }
-.selected_d94cf9,{
-    background: var(--background-primary);
+.selected_d94cf9{
+    background: var(--background-primary)!important;
 }
 .modeSelected__487d6 .link__95dc0, .modeSelected__487d6 .link__95dc0 {
     background: var(--background-primary);
 }
-:root .wrapper__7bcde :hover{
-    background: #1a523f;
+.wrapper__7bcde{
+    background-color: var(--background-secondary);
+    transition: background-color 0.3s ease;
+}
+.wrapper__7bcde :hover{
+    background-color: #1a523f;
     border-radius: 5px;
 }
 .channel_c21703{
     background-color: var(--background-secondary);
+    transition: background-color 0.3s ease;
 }
-
 .channel_c21703 :hover{
     background-color:  #1a523f;
     border-radius: 10px;
@@ -49,7 +56,6 @@
     background-color: #1a523f;
     border-radius: 10px;
 }
-
 :root .peopleListItem_d14722{
     background: transparent;
     border-radius: 10px;
