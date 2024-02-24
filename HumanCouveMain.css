@@ -221,7 +221,6 @@
   }
   .sidebar_ded4b5 .scroller_f0f183{
     transition: 0.3s ease-in-out;
-    margin-top: -100px;
   }
   .sidebar_ded4b5 .containerDefault__23a29 {
     transition: 0.3s ease-in-out;
@@ -251,8 +250,8 @@
     margin-left: 0px
   }
   .sidebar_ded4b5:not(:hover) .containerDefault__3187b {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .sidebar_ded4b5:not(:hover) .header__104ca{
     background-color: var(--background-secondary);
