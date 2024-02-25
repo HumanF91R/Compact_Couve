@@ -11,6 +11,10 @@
 
 /* Settings */
 :root {
+    /* Optional Disable Now Playing Column delete segment for now playing back */
+    .container__5c7e7 .nowPlayingColumn_f5023f{
+        display:none;
+    }
     
     /* Colors */
     --main-color: #419e85;
