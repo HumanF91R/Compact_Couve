@@ -22,9 +22,6 @@
     /* Borders */
     --avatar-radius: 5px;
 
-    /*Animation speeds*/
-    --animation-speed: 800ms;
-}
 
 /* Dark/Light vars */
 .theme-dark {
